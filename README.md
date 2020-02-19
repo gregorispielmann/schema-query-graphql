@@ -1,6 +1,6 @@
-#A simple GraphQL Schema-Query test
+# A simple GraphQL Schema-Query test
 
-##Running Locally
+## Running Locally
 
 To run locally you just need clone this repo and follow theses steps:
 
@@ -17,6 +17,8 @@ $ yarn start
 ```
 
 After all these commands you just need to run in your browser with address http://localhost:4000
+
+### GraphQL Playground commands
 
 This will open the 'GRAPHQL PLAYGROUND', you can test the queries below:
 
