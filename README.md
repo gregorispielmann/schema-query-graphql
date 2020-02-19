@@ -18,7 +18,7 @@ $ yarn start
 
 After all these commands you just need to run in your browser with address http://localhost:4000
 
-### GraphQL Playground commands
+## GraphQL Playground commands
 
 This will open the 'GRAPHQL PLAYGROUND', you can test the queries below:
 
