@@ -4,11 +4,13 @@
 
 To run locally you just need clone this repo and follow theses steps:
 
-`Run yarn to install dependencies $ yarn`
+`Run yarn to install dependencies
+$ yarn`
 
 After that...
 
-`Run yarn start to run app locally $ yarn start`
+`Run yarn start to run app locally
+$ yarn start`
 
 After all these commands you just need to run in your browser with address http://localhost:4000
 
@@ -18,66 +20,54 @@ This will open the 'GRAPHQL PLAYGROUND', you can test the queries below:
 query {
 
 ola
+
 horaAtual
+
 usuarioLogado {
-id
-nome
-email
-salario
+  id
+  nome
+  email
+  salario
 }
 
-    produtoEmDestaque {
-    nome3
-    preco
-    desconto
-    precoComDesconto
-    }
+produtoEmDestaque {
+nome3
+preco
+desconto
+precoComDesconto
+}
 
 numerosMegaSena
 
 usuarios {
-
-id
-
-nome
-
-email
-
+  id
+  nome
+  email
 }
 
 usuarios{
-
-nome
-
-perfil{
-
-nome
-
+  nome
+  perfil {
+    nome
+  }
 }
 
-}
-
-usuario(id:1){
-
-nome
-
-perfil {
-
-nome
-
-}
-
+usuario(id:1) {
+  nome
+    perfil {
+      nome
+    }
 }
 
 usuario(id:3) { ... usuarioCompleto }
 
 usuarios {
-...usuarioCompleto
+  ...usuarioCompleto
 }
 }
 
 fragment usuarioCompleto on Usuario {
-id nome email idade salario vip perfil { nome }
+  id nome email idade salario vip perfil { nome }
 }
 ```
 
