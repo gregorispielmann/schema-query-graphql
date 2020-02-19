@@ -14,7 +14,7 @@ After all these commands you just need to run in your browser with address http:
 
 This will open the 'GRAPHQL PLAYGROUND', you can test the queries below:
 
-``
+```
 query {
 
 ola
@@ -79,8 +79,8 @@ usuarios {
 fragment usuarioCompleto on Usuario {
 id nome email idade salario vip perfil { nome }
 }
-``
+```
 
 If you want to comment the line just use your code editor!
 
-Made with :hearts: by Gregori Spielmann
+### Made with :hearts: by Gregori Spielmann
