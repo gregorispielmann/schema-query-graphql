@@ -1,6 +1,6 @@
-## A simple GraphQL Schema-Query test
+#A simple GraphQL Schema-Query test
 
-### Running Locally
+##Running Locally
 
 To run locally you just need clone this repo and follow theses steps:
 
@@ -17,64 +17,57 @@ This will open the 'GRAPHQL PLAYGROUND', you can test the queries below:
 ``
 query {
 
-# ola
+ola
+horaAtual
+usuarioLogado {
+id
+nome
+email
+salario
+}
 
-# horaAtual
+    produtoEmDestaque {
+    nome3
+    preco
+    desconto
+    precoComDesconto
+    }
 
-# usuarioLogado {
+numerosMegaSena
 
-# id
+usuarios {
 
-# nome
+id
 
-# email
+nome
 
-# salario
+email
 
-# }
+}
 
-    # produtoEmDestaque {
-    # nome3
-    # preco
-    # desconto
-    # precoComDesconto
-    # }
+usuarios{
 
-# numerosMegaSena
+nome
 
-# usuarios {
+perfil{
 
-# id
+nome
 
-# nome
+}
 
-# email
+}
 
-# }
+usuario(id:1){
 
-# usuarios{
+nome
 
-# nome
+perfil {
 
-# perfil{
+nome
 
-# nome
+}
 
-# }
-
-# }
-
-# usuario(id:1){
-
-# nome
-
-# perfil {
-
-# nome
-
-# }
-
-# }
+}
 
 usuario(id:3) { ... usuarioCompleto }
 
@@ -90,4 +83,4 @@ id nome email idade salario vip perfil { nome }
 
 If you want to comment the line just use your code editor!
 
-Made with
+Made with :hearts: by Gregori Spielmann
